@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roofing Blog — Houston Homeowner Tips | One Sun America</title>
+  <meta name="description" content="Expert roofing advice for Houston homeowners. Hail damage, hurricane prep, insurance claims, and when to repair vs. replace your roof.">
+  <link rel="canonical" href="https://onesunamerica.com/blog/">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "One Sun America — Roofing Blog",
+    "description": "Expert roofing advice for Houston homeowners",
+    "url": "https://onesunamerica.com/blog/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "One Sun America",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onesunamerica.com/images/logo-color.png"
+      }
+    }
+  }
+  </script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy:    #0b2545;
+      --navy-dk: #071a33;
+      --gold:    #eec915;
+      --gold-dk: #d4b310;
+      --text:    #1a1a2e;
+      --muted:   #64748b;
+      --border:  #e2e8f0;
+      --surface: #ffffff;
+      --bg:      #f8fafc;
+      --radius:  10px;
+      --radius-lg: 16px;
+      --transition: .2s ease;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 15px;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+
+    /* ── NAV ── */
+    .nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 12px rgba(0,0,0,.06);
+    }
+    .nav-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 88px;
+      gap: 24px;
+    }
+    .nav-brand img {
+      height: 80px;
+      width: auto;
+      display: block;
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      list-style: none;
+    }
+    .nav-links a {
+      font-size: 14px;
+      font-weight: 600;
+      color: #64748b;
+      text-decoration: none;
+      transition: color var(--transition);
+    }
+    .nav-links a:hover { color: var(--navy); }
+    .nav-phone {
+      font-family: 'Poppins', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--navy);
+      text-decoration: none;
+    }
+    .btn-quote {
+      background: var(--gold);
+      color: var(--navy);
+      font-family: 'Poppins', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      padding: 10px 22px;
+      border-radius: var(--radius);
+      text-decoration: none;
+      white-space: nowrap;
+      transition: background var(--transition);
+    }
+    .btn-quote:hover { background: var(--gold-dk); }
+
+    /* ── HERO STRIP ── */
+    .blog-hero {
+      background: linear-gradient(135deg, var(--navy) 0%, #1a3a6b 100%);
+      padding: 64px 24px 56px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .blog-hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 60% 80% at 50% 120%, rgba(238,201,21,.12) 0%, transparent 70%);
+    }
+    .blog-hero-tag {
+      display: inline-block;
+      background: rgba(238,201,21,.15);
+      border: 1px solid rgba(238,201,21,.3);
+      color: var(--gold);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      padding: 5px 14px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+    .blog-hero h1 {
+      font-family: 'Poppins', sans-serif;
+      font-size: clamp(26px, 4vw, 40px);
+      font-weight: 800;
+      color: #fff;
+      letter-spacing: -.5px;
+      margin-bottom: 14px;
+      position: relative;
+    }
+    .blog-hero p {
+      font-size: 15px;
+      color: rgba(255,255,255,.7);
+      max-width: 520px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    /* ── GOLD BAR ── */
+    .gold-bar {
+      height: 4px;
+      background: linear-gradient(90deg, var(--gold) 0%, #f5d84a 50%, var(--gold) 100%);
+    }
+
+    /* ── MAIN CONTENT ── */
+    .main {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+    }
+
+    .section-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 28px;
+    }
+    .section-label span {
+      color: var(--gold);
+      border-bottom: 2px solid var(--gold);
+      padding-bottom: 2px;
+    }
+
+    /* ── POST GRID ── */
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+      margin-bottom: 0;
+    }
+
+    /* ── POST CARD ── */
+    .post-card {
+      background: var(--surface);
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border);
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      transition: box-shadow var(--transition), transform var(--transition);
+    }
+    .post-card:hover {
+      box-shadow: 0 8px 32px rgba(0,0,0,.12);
+      transform: translateY(-3px);
+    }
+    .post-img-wrap {
+      position: relative;
+      overflow: hidden;
+      height: 190px;
+      background: linear-gradient(135deg, #1a3a6b 0%, #0b2545 100%);
+    }
+    .post-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .post-badge {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: var(--gold);
+      color: var(--navy);
+      font-size: 11px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 100px;
+      font-family: 'Poppins', sans-serif;
+      letter-spacing: .04em;
+      white-space: nowrap;
+    }
+    .post-body {
+      padding: 22px 22px 24px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .post-meta {
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+    .post-title {
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--navy);
+      letter-spacing: -.2px;
+      line-height: 1.35;
+      margin-bottom: 10px;
+    }
+    .post-summary {
+      font-size: 13.5px;
+      color: var(--muted);
+      line-height: 1.65;
+      flex: 1;
+      margin-bottom: 0;
+    }
+    .card-read-more {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-top: 14px;
+      border-top: 1px solid var(--border);
+      padding-top: 14px;
+      transition: color var(--transition), gap var(--transition);
+    }
+    .post-card:hover .card-read-more { color: var(--gold-dk); gap: 8px; }
+
+    /* hide/show by language */
+    [data-lang] { display: none; }
+    [data-lang].lang-active { display: block; }
+
+    /* ── FADE-UP ANIMATION ── */
+    .fade-up {
+      opacity: 0;
+      transform: translateY(18px);
+      animation: fadeUp .45s ease forwards;
+    }
+    @keyframes fadeUp {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ── CTA STRIP ── */
+    .cta-strip {
+      background: linear-gradient(135deg, var(--navy) 0%, #1a3a6b 100%);
+      border-radius: var(--radius-lg);
+      padding: 48px 40px;
+      text-align: center;
+      margin-top: 64px;
+      position: relative;
+      overflow: hidden;
+    }
+    .cta-strip::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 50% 80% at 50% 110%, rgba(238,201,21,.15) 0%, transparent 65%);
+    }
+    .cta-strip h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 26px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 12px;
+      position: relative;
+    }
+    .cta-strip p {
+      font-size: 15px;
+      color: rgba(255,255,255,.7);
+      margin-bottom: 28px;
+      position: relative;
+    }
+    .cta-btns {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+      flex-wrap: wrap;
+      position: relative;
+    }
+    .btn-gold-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--gold);
+      color: var(--navy);
+      font-family: 'Poppins', sans-serif;
+      font-size: 15px;
+      font-weight: 800;
+      padding: 14px 28px;
+      border-radius: var(--radius);
+      text-decoration: none;
+      transition: background var(--transition), transform 80ms;
+    }
+    .btn-gold-cta:hover { background: var(--gold-dk); transform: translateY(-1px); }
+    .btn-outline-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: 2px solid rgba(255,255,255,.35);
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      padding: 14px 28px;
+      border-radius: var(--radius);
+      text-decoration: none;
+      transition: border-color var(--transition), background var(--transition);
+    }
+    .btn-outline-cta:hover { border-color: #fff; background: rgba(255,255,255,.08); }
+
+    /* ── FOOTER ── */
+    .footer {
+      background: var(--navy-dk);
+      padding: 32px 24px;
+      text-align: center;
+    }
+    .footer p { font-size: 12px; color: rgba(255,255,255,.45); }
+    .footer a { color: var(--gold); text-decoration: none; }
+    .footer a:hover { text-decoration: underline; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 900px) {
+      .blog-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 680px) {
+      .blog-grid { grid-template-columns: 1fr; }
+      .nav-links { display: none; }
+      .nav-phone { display: none; }
+      .cta-strip { padding: 36px 24px; }
+      .cta-strip h2 { font-size: 20px; }
+    }
+  </style>
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "wyt2pn3fg9");
+  </script>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="../index.html" class="nav-brand">
+      <img src="../images/logo-color.png" alt="One Sun America" />
+    </a>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../index.html#services">Services</a></li>
+      <li><a href="../insurance.html">Insurance</a></li>
+      <li><a href="../index.html#projects">Projects</a></li>
+    </ul>
+    <div style="display:flex;align-items:center;gap:16px;">
+      <a href="tel:8328655743" class="nav-phone">(832) 865-5743</a>
+      <a href="../index.html#quote" class="btn-quote">Free Quote</a>
+    </div>
+  </div>
+</nav>
+
+<div class="gold-bar"></div>
+
+<!-- HERO -->
+<div class="blog-hero">
+  <div class="blog-hero-tag">Houston Roofing Blog</div>
+  <h1>Advice Houston Homeowners Actually Need</h1>
+  <p>No fluff. Real answers on hail damage, hurricane prep, insurance claims, and how to protect your biggest investment.</p>
+</div>
+
+<!-- MAIN -->
+<main class="main">
+
+  <p class="section-label">Latest — <span>2026</span></p>
+
+  <!-- DYNAMIC BLOG GRID -->
+  <div id="blog-grid" class="blog-grid"></div>
+
+  <!-- CTA -->
+  <div class="cta-strip">
+    <h2>Think your roof has storm damage?</h2>
+    <p>We inspect for free — no pressure, no obligation. Just an honest assessment from a licensed Houston contractor.</p>
+    <div class="cta-btns">
+      <a href="tel:8328655743" class="btn-gold-cta">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        (832) 865-5743
+      </a>
+      <a href="../index.html#quote" class="btn-outline-cta">Request Free Inspection</a>
+    </div>
+  </div>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>
+    &copy; 2026 <a href="../index.html">One Sun America LLC</a> &nbsp;&middot;&nbsp;
+    Houston, TX &nbsp;&middot;&nbsp;
+    Licensed &amp; Insured &nbsp;&middot;&nbsp;
+    <a href="tel:8328655743">(832) 865-5743</a> &nbsp;&middot;&nbsp;
+    <a href="mailto:info@onesunamerica.com">info@onesunamerica.com</a>
+    <br><br>
+    Designed by <a href="https://techadvisor.agency" target="_blank" rel="noopener">TechAdvisor</a>
+  </p>
+</footer>
+
+<script src="../site-data.js"></script>
+<script>
+  /* ── Language helpers ── */
+  function getLang() {
+    return localStorage.getItem('onesun-lang') || 'en';
+  }
+
+  /* ── Lookup service label by ID ── */
+  function getServiceLabel(serviceId, lang) {
+    const svc = ONE_SUN.services.find(s => s.id === serviceId);
+    if (!svc) return serviceId;
+    return lang === 'es' ? svc.es.name : svc.en.name;
+  }
+
+  /* ── Format date ── */
+  function formatDate(dateStr) {
+    return new Date(dateStr + 'T12:00:00').toLocaleDateString('en-US', {
+      year: 'numeric', month: 'long', day: 'numeric'
+    });
+  }
+
+  /* ── Render posts ── */
+  function renderPosts() {
+    const lang = getLang();
+    const grid = document.getElementById('blog-grid');
+
+    const sorted = [...ONE_SUN.blog].sort((a, b) =>
+      new Date(b.date) - new Date(a.date)
+    );
+
+    grid.innerHTML = sorted.map((post, i) => {
+      const serviceLabel = post.services && post.services.length
+        ? getServiceLabel(post.services[0], lang)
+        : 'Roofing';
+      const dateFormatted = formatDate(post.date);
+      const delay = (i * 80) + 'ms';
+
+      return `
+        <a href="../${post.slug}" class="post-card fade-up" style="animation-delay:${delay}">
+          <div class="post-img-wrap">
+            <img src="../${post.image}" alt="${post.en.title}" loading="lazy" />
+            <span class="post-badge">${serviceLabel}</span>
+          </div>
+          <div class="post-body">
+            <div class="post-meta">${dateFormatted}</div>
+            <h2 class="post-title" data-lang="en">${post.en.title}</h2>
+            <h2 class="post-title" data-lang="es">${post.es.title}</h2>
+            <p class="post-summary" data-lang="en">${post.en.summary}</p>
+            <p class="post-summary" data-lang="es">${post.es.summary}</p>
+            <span class="card-read-more">
+              <span data-lang="en">Read more &rarr;</span>
+              <span data-lang="es">Leer m&aacute;s &rarr;</span>
+            </span>
+          </div>
+        </a>`;
+    }).join('');
+
+    applyLang(lang);
+  }
+
+  /* ── Show/hide elements by current language ── */
+  function applyLang(lang) {
+    document.querySelectorAll('[data-lang]').forEach(el => {
+      el.classList.toggle('lang-active', el.getAttribute('data-lang') === lang);
+    });
+  }
+
+  /* ── Init ── */
+  renderPosts();
+
+  /* ── Re-render if language changes elsewhere on the page ── */
+  window.addEventListener('onesun-lang-change', () => renderPosts());
+</script>
+
+</body>
+</html>

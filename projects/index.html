@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ── Primary SEO ── -->
+  <title>Our Projects — Roofing Work Across Houston TX | One Sun America</title>
+  <meta name="description" content="Browse One Sun America's completed roofing projects across Houston, Katy, Sugar Land, Pearland, Friendswood, and The Woodlands TX." />
+  <link rel="canonical" href="https://onesunamerica.com/projects/" />
+
+  <!-- ── Open Graph ── -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://onesunamerica.com/projects/" />
+  <meta property="og:title" content="Our Projects — Roofing Work Across Houston TX | One Sun America" />
+  <meta property="og:description" content="Browse completed roofing projects across Houston, Katy, Sugar Land, Pearland, Friendswood, and The Woodlands TX." />
+  <meta property="og:image" content="https://onesunamerica.com/images/after-roof.jpg" />
+
+  <!-- ── Schema: ItemList ── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "One Sun America Completed Roofing Projects",
+    "url": "https://onesunamerica.com/projects/",
+    "numberOfItems": 8,
+    "itemListElement": [
+      {"@type":"ListItem","position":1,"name":"Full Roof Replacement — Houston, TX","description":"Complete asphalt shingle roof replacement for a residential home in Houston."},
+      {"@type":"ListItem","position":2,"name":"Hail Damage Repair — Katy, TX","description":"Insurance-covered hail damage roof repair in Katy, TX."},
+      {"@type":"ListItem","position":3,"name":"Roof Replacement — Sugar Land, TX","description":"Full roof replacement for a residential home in Sugar Land, TX."},
+      {"@type":"ListItem","position":4,"name":"Storm Damage — Pearland, TX","description":"Storm damage roof repair in Pearland, TX."},
+      {"@type":"ListItem","position":5,"name":"Gutter Installation — Friendswood, TX","description":"Seamless aluminum gutter installation in Friendswood, TX."},
+      {"@type":"ListItem","position":6,"name":"Roof Replacement — The Woodlands, TX","description":"Full roof replacement in The Woodlands, TX."},
+      {"@type":"ListItem","position":7,"name":"Leak Repair — Houston Heights, TX","description":"Roof leak repair in Houston Heights neighborhood."},
+      {"@type":"ListItem","position":8,"name":"Before / After — Katy, TX","description":"Full roof replacement before and after comparison in Katy, TX."}
+    ]
+  }
+  </script>
+
+  <!-- ── Fonts ── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --navy:       #0b2545;
+      --navy-dk:    #071a33;
+      --gold:       #eec915;
+      --gold-dk:    #d4b310;
+      --text:       #1a1a2e;
+      --muted:      #64748b;
+      --border:     #E2E8F0;
+      --surface:    #fff;
+      --bg:         #f8fafc;
+      --green:      #16a34a;
+      --radius:     10px;
+      --radius-lg:  16px;
+      --shadow:     0 4px 20px rgba(0,0,0,.07);
+      --transition: 220ms ease;
+      --max:        1180px;
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px; line-height: 1.65;
+      color: var(--text); background: var(--bg);
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; }
+
+    /* ── Language ── */
+    [data-lang] { display: none; }
+    html[lang="en"] [data-lang="en"] { display: revert; }
+    html[lang="es"] [data-lang="es"] { display: revert; }
+    span[data-lang], a[data-lang], li[data-lang] { display: none; }
+    html[lang="en"] span[data-lang="en"],
+    html[lang="en"] a[data-lang="en"],
+    html[lang="en"] li[data-lang="en"] { display: inline; }
+    html[lang="es"] span[data-lang="es"],
+    html[lang="es"] a[data-lang="es"],
+    html[lang="es"] li[data-lang="es"] { display: inline; }
+
+    /* ── Container ── */
+    .container { width: 100%; max-width: var(--max); margin: 0 auto; padding: 0 24px; }
+
+    /* ─────────────────────────────────────────
+       NAV
+    ───────────────────────────────────────── */
+    .navbar {
+      position: sticky; top: 0; z-index: 999;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      box-shadow: 0 2px 12px rgba(0,0,0,.06);
+      transition: box-shadow var(--transition);
+    }
+    .navbar.scrolled { box-shadow: 0 4px 24px rgba(0,0,0,.12); }
+    .nav-inner {
+      display: flex; align-items: center; justify-content: space-between;
+      height: 68px; gap: 16px;
+    }
+    .nav-logo img { height: 52px; width: auto; display: block; }
+    .nav-links {
+      display: flex; align-items: center; gap: 4px; list-style: none;
+    }
+    .nav-links a {
+      padding: 8px 14px; border-radius: var(--radius);
+      font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500;
+      color: var(--text); transition: background var(--transition), color var(--transition);
+    }
+    .nav-links a:hover,
+    .nav-links a.active { background: var(--bg); color: var(--navy); }
+    .nav-right {
+      display: flex; align-items: center; gap: 10px; flex-shrink: 0;
+    }
+    .nav-phone {
+      font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 600;
+      color: var(--navy); white-space: nowrap;
+    }
+    .nav-phone a { color: inherit; }
+    .lang-toggle { display: flex; gap: 2px; }
+    .lang-btn {
+      padding: 4px 10px; border-radius: 100px; border: none;
+      font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 600;
+      letter-spacing: .04em; cursor: pointer; transition: var(--transition);
+      background: transparent; color: var(--muted);
+    }
+    .lang-btn.active { background: var(--gold); color: var(--navy); }
+    .btn-gold {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: var(--gold); color: var(--navy);
+      font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 700;
+      padding: 10px 20px; border-radius: var(--radius);
+      border: none; cursor: pointer; white-space: nowrap;
+      transition: background var(--transition), transform var(--transition), box-shadow var(--transition);
+    }
+    .btn-gold:hover { background: var(--gold-dk); transform: translateY(-1px); box-shadow: 0 6px 18px rgba(238,201,21,.4); }
+    .hamburger {
+      display: none; flex-direction: column; gap: 5px; cursor: pointer;
+      background: none; border: none; padding: 4px;
+    }
+    .hamburger span {
+      display: block; width: 22px; height: 2px;
+      background: var(--navy); border-radius: 2px;
+      transition: var(--transition);
+    }
+    .mobile-menu {
+      display: none; flex-direction: column; gap: 4px;
+      padding: 12px 24px 16px; border-top: 1px solid var(--border);
+      background: var(--surface);
+    }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a {
+      padding: 10px 12px; border-radius: var(--radius);
+      font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 500;
+      color: var(--text);
+    }
+    .mobile-menu a:hover { background: var(--bg); }
+    .mobile-menu .btn-gold { justify-content: center; }
+
+    /* ─────────────────────────────────────────
+       PAGE HEADER
+    ───────────────────────────────────────── */
+    .page-header {
+      background: var(--navy);
+      padding: 52px 0 48px;
+      position: relative; overflow: hidden;
+    }
+    .page-header::before {
+      content: '';
+      position: absolute; inset: 0; opacity: .04;
+      background-image: repeating-linear-gradient(45deg, #fff 0, #fff 1px, transparent 0, transparent 50%);
+      background-size: 20px 20px; pointer-events: none;
+    }
+    .page-header-inner { position: relative; z-index: 1; }
+    .page-eyebrow {
+      display: inline-block;
+      font-family: 'Poppins', sans-serif; font-size: 11px; font-weight: 700;
+      letter-spacing: .14em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 12px;
+    }
+    .page-h1 {
+      font-family: 'Poppins', sans-serif;
+      font-size: clamp(28px, 4vw, 44px); font-weight: 800; line-height: 1.15;
+      color: #fff; margin-bottom: 12px;
+    }
+    .page-sub {
+      font-size: 16px; color: rgba(255,255,255,.65); max-width: 540px; line-height: 1.7;
+    }
+
+    /* ─────────────────────────────────────────
+       FILTER BAR
+    ───────────────────────────────────────── */
+    .filter-bar {
+      position: sticky; top: 68px; z-index: 90;
+      background: var(--surface); border-bottom: 1px solid var(--border);
+      padding: 14px 0; box-shadow: 0 2px 8px rgba(0,0,0,.04);
+    }
+    .filter-bar-inner {
+      display: flex; align-items: center; flex-wrap: wrap; gap: 16px;
+    }
+    .filter-group {
+      display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+    }
+    .filter-label {
+      font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: .08em; color: var(--muted);
+      white-space: nowrap;
+    }
+    .filter-btn {
+      padding: 6px 14px; border-radius: 100px;
+      border: 1.5px solid var(--border); background: var(--surface);
+      font-family: 'Poppins', sans-serif; font-size: 13px; font-weight: 500;
+      color: var(--text); cursor: pointer;
+      transition: background var(--transition), border-color var(--transition), color var(--transition);
+      white-space: nowrap;
+    }
+    .filter-btn:hover { border-color: var(--navy); color: var(--navy); }
+    .filter-btn.active {
+      background: var(--navy); border-color: var(--navy); color: #fff;
+    }
+    .filter-divider {
+      width: 1px; height: 28px; background: var(--border); flex-shrink: 0;
+    }
+
+    /* ─────────────────────────────────────────
+       PROJECTS GRID
+    ───────────────────────────────────────── */
+    .projects-section {
+      padding: 56px 0 72px;
+    }
+    .results-count {
+      font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500;
+      color: var(--muted); margin-bottom: 28px;
+    }
+    .results-count strong { color: var(--navy); }
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+    }
+    .project-card {
+      background: var(--surface); border-radius: var(--radius-lg);
+      border: 1px solid var(--border);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      transition: transform var(--transition), box-shadow var(--transition), opacity var(--transition);
+    }
+    .project-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 36px rgba(0,0,0,.12);
+    }
+    .project-card.hidden {
+      display: none;
+    }
+    .project-card.fade-out {
+      opacity: 0; transform: translateY(8px);
+    }
+
+    /* ── Photo wrap + overlays ── */
+    .card-img-wrap {
+      position: relative; overflow: hidden;
+      aspect-ratio: 16 / 11;
+    }
+    .card-img-wrap img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform 400ms ease;
+    }
+    .project-card:hover .card-img-wrap img { transform: scale(1.04); }
+
+    /* Overlay badges */
+    .badge-city {
+      position: absolute; top: 10px; left: 10px;
+      background: rgba(11,37,69,.82); color: #fff;
+      font-family: 'Poppins', sans-serif;
+      font-size: 11px; font-weight: 700; letter-spacing: .04em;
+      padding: 4px 10px; border-radius: 100px;
+      backdrop-filter: blur(4px);
+    }
+    .badge-service {
+      position: absolute; top: 10px; right: 10px;
+      background: var(--gold); color: var(--navy);
+      font-family: 'Poppins', sans-serif;
+      font-size: 11px; font-weight: 700; letter-spacing: .04em;
+      padding: 4px 10px; border-radius: 100px;
+    }
+    .badge-year {
+      position: absolute; bottom: 10px; right: 10px;
+      background: rgba(0,0,0,.5); color: rgba(255,255,255,.85);
+      font-family: 'Poppins', sans-serif;
+      font-size: 11px; font-weight: 600;
+      padding: 3px 9px; border-radius: 100px;
+      backdrop-filter: blur(4px);
+    }
+
+    .card-body { padding: 20px 20px 22px; }
+    .card-title {
+      font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 700;
+      color: var(--navy); line-height: 1.3; margin-bottom: 8px;
+    }
+    .card-desc {
+      font-size: 14px; color: var(--muted); line-height: 1.65;
+    }
+    .no-results {
+      display: none; text-align: center; padding: 56px 24px;
+      grid-column: 1 / -1;
+    }
+    .no-results.visible { display: block; }
+    .no-results-icon {
+      font-size: 40px; margin-bottom: 16px;
+    }
+    .no-results h3 {
+      font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 700;
+      color: var(--navy); margin-bottom: 8px;
+    }
+    .no-results p { color: var(--muted); font-size: 15px; }
+
+    /* ─────────────────────────────────────────
+       CTA SECTION
+    ───────────────────────────────────────── */
+    .cta-section {
+      background: var(--navy-dk);
+      padding: 64px 0;
+      text-align: center;
+      position: relative; overflow: hidden;
+    }
+    .cta-section::before {
+      content: '';
+      position: absolute; inset: 0; opacity: .04;
+      background-image: repeating-linear-gradient(45deg, #fff 0, #fff 1px, transparent 0, transparent 50%);
+      background-size: 20px 20px; pointer-events: none;
+    }
+    .cta-inner { position: relative; z-index: 1; }
+    .cta-h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: clamp(24px, 3.5vw, 38px); font-weight: 800;
+      color: #fff; margin-bottom: 12px; line-height: 1.2;
+    }
+    .cta-sub {
+      font-size: 16px; color: rgba(255,255,255,.6);
+      margin-bottom: 32px; max-width: 480px; margin-left: auto; margin-right: auto;
+    }
+    .cta-actions {
+      display: flex; align-items: center; justify-content: center; gap: 14px; flex-wrap: wrap;
+    }
+    .btn-cta-gold {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--gold); color: var(--navy);
+      font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 700;
+      padding: 14px 28px; border-radius: var(--radius);
+      transition: background var(--transition), transform var(--transition), box-shadow var(--transition);
+    }
+    .btn-cta-gold:hover { background: var(--gold-dk); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(238,201,21,.35); }
+    .btn-cta-gold svg { width: 18px; height: 18px; stroke: currentColor; fill: none; stroke-width: 2; }
+    .btn-cta-outline {
+      display: inline-flex; align-items: center; gap: 8px;
+      border: 2px solid rgba(255,255,255,.3); color: #fff;
+      font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 600;
+      padding: 14px 28px; border-radius: var(--radius);
+      transition: border-color var(--transition), background var(--transition);
+    }
+    .btn-cta-outline:hover { border-color: rgba(255,255,255,.7); background: rgba(255,255,255,.05); }
+
+    /* ─────────────────────────────────────────
+       FOOTER
+    ───────────────────────────────────────── */
+    footer {
+      background: var(--navy-dk);
+      border-top: 1px solid rgba(255,255,255,.06);
+      padding: 52px 0 0;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr 1.2fr 1fr;
+      gap: 36px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid rgba(255,255,255,.08);
+    }
+    .footer-brand img { height: 44px; margin-bottom: 14px; }
+    .footer-tagline {
+      font-size: 14px; color: rgba(255,255,255,.45); line-height: 1.75; margin-bottom: 16px;
+    }
+    .footer-col-title {
+      font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 700;
+      letter-spacing: .1em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 14px;
+    }
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+    .footer-links a {
+      font-size: 14px; color: rgba(255,255,255,.5);
+      transition: color var(--transition);
+    }
+    .footer-links a:hover { color: #fff; }
+    .footer-contact-item {
+      display: flex; align-items: flex-start; gap: 8px;
+      font-size: 14px; color: rgba(255,255,255,.5); margin-bottom: 10px;
+      line-height: 1.5;
+    }
+    .footer-contact-item svg {
+      width: 16px; height: 16px; stroke: var(--gold); fill: none; stroke-width: 2;
+      flex-shrink: 0; margin-top: 2px;
+    }
+    .footer-contact-item a { color: inherit; }
+    .footer-contact-item a:hover { color: #fff; }
+    .footer-bottom {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 16px 0; flex-wrap: wrap; gap: 8px;
+    }
+    .footer-copy {
+      font-size: 13px; color: rgba(255,255,255,.25);
+    }
+    .footer-credit {
+      font-size: 13px; color: rgba(255,255,255,.25);
+    }
+    .footer-credit a { color: rgba(255,255,255,.4); }
+    .footer-credit a:hover { color: #fff; }
+
+    /* ─────────────────────────────────────────
+       STICKY MOBILE CTA
+    ───────────────────────────────────────── */
+    .sticky-cta {
+      display: none; position: fixed; bottom: 0; left: 0; right: 0; z-index: 200;
+      background: var(--navy); border-top: 2px solid var(--gold); padding: 10px 20px;
+    }
+    .sticky-cta a {
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+      background: var(--gold); color: var(--navy); padding: 13px;
+      border-radius: var(--radius);
+      font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 700;
+    }
+    .sticky-cta svg { width: 18px; height: 18px; stroke: var(--navy); fill: none; stroke-width: 2; }
+
+    /* ─────────────────────────────────────────
+       FADE IN
+    ───────────────────────────────────────── */
+    .fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.5s ease, transform 0.5s ease; }
+    .fade-in.visible { opacity: 1; transform: translateY(0); }
+
+    /* ─────────────────────────────────────────
+       RESPONSIVE
+    ───────────────────────────────────────── */
+    @media (max-width: 960px) {
+      .projects-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+      .footer-grid { grid-template-columns: 1fr 1fr; gap: 28px; }
+    }
+    @media (max-width: 720px) {
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+      .filter-bar-inner { gap: 10px; }
+      .filter-label { display: none; }
+      .filter-divider { display: none; }
+      .sticky-cta { display: block; }
+      body { padding-bottom: 64px; }
+    }
+    @media (max-width: 560px) {
+      .projects-grid { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .cta-actions { flex-direction: column; }
+      .btn-cta-gold, .btn-cta-outline { width: 100%; justify-content: center; }
+    }
+  </style>
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "wyt2pn3fg9");
+  </script>
+</head>
+<body>
+
+  <!-- ════════════════════════════════════
+       NAV
+  ════════════════════════════════════ -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav-inner">
+        <a class="nav-logo" href="../index.html" aria-label="One Sun America — Home">
+          <img src="../images/logo-color.png" alt="One Sun America" />
+        </a>
+        <ul class="nav-links" role="list">
+          <li><a href="../quote.html" data-lang="en">Roof Replacement</a><a href="../quote.html" data-lang="es">Reemplazo</a></li>
+          <li><a href="../insurance.html" data-lang="en">Insurance</a><a href="../insurance.html" data-lang="es">Seguros</a></li>
+          <li><a href="../gutters.html" data-lang="en">Gutters</a><a href="../gutters.html" data-lang="es">Canaletas</a></li>
+          <li><a href="index.html" class="active" data-lang="en">Projects</a><a href="index.html" class="active" data-lang="es">Proyectos</a></li>
+          <li><a href="../blog/index.html" data-lang="en">Blog</a><a href="../blog/index.html" data-lang="es">Blog</a></li>
+        </ul>
+        <div class="nav-right">
+          <div class="nav-phone">
+            <a href="tel:+18328655743">(832) 865-5743</a>
+          </div>
+          <div class="lang-toggle" role="group" aria-label="Language toggle">
+            <button class="lang-btn active" id="btn-en" onclick="setLang('en')">EN</button>
+            <button class="lang-btn" id="btn-es" onclick="setLang('es')">ES</button>
+          </div>
+          <a href="#cta" class="btn-gold" aria-label="Get a free quote">
+            <span data-lang="en">Free Quote</span>
+            <span data-lang="es">Cotización</span>
+          </a>
+          <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobile-menu" role="menu">
+      <a href="../quote.html" role="menuitem" data-lang="en">Roof Replacement</a>
+      <a href="../quote.html" role="menuitem" data-lang="es">Reemplazo de Techo</a>
+      <a href="../insurance.html" role="menuitem" data-lang="en">Insurance Claims</a>
+      <a href="../insurance.html" role="menuitem" data-lang="es">Seguros</a>
+      <a href="../gutters.html" role="menuitem" data-lang="en">Gutters</a>
+      <a href="../gutters.html" role="menuitem" data-lang="es">Canaletas</a>
+      <a href="index.html" role="menuitem" data-lang="en">Projects</a>
+      <a href="index.html" role="menuitem" data-lang="es">Proyectos</a>
+      <a href="../blog/index.html" role="menuitem" data-lang="en">Blog</a>
+      <a href="../blog/index.html" role="menuitem" data-lang="es">Blog</a>
+      <a href="#cta" class="btn-gold" role="menuitem">
+        <span data-lang="en">Free Quote</span>
+        <span data-lang="es">Cotización Gratis</span>
+      </a>
+    </div>
+  </nav>
+
+  <!-- ════════════════════════════════════
+       PAGE HEADER
+  ════════════════════════════════════ -->
+  <section class="page-header" aria-labelledby="page-title">
+    <div class="container page-header-inner">
+      <div class="page-eyebrow" data-lang="en">Our Work</div>
+      <div class="page-eyebrow" data-lang="es">Nuestros Proyectos</div>
+      <h1 class="page-h1" id="page-title" data-lang="en">Completed Projects Across Houston, TX</h1>
+      <h1 class="page-h1" data-lang="es">Proyectos Completados en el Área de Houston, TX</h1>
+      <p class="page-sub" data-lang="en">Real projects. Real results. Serving Greater Houston since 2019.</p>
+      <p class="page-sub" data-lang="es">Proyectos reales. Resultados reales. Sirviendo a Houston desde 2019.</p>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════
+       FILTER BAR
+  ════════════════════════════════════ -->
+  <div class="filter-bar" id="filter-bar" role="search" aria-label="Filter projects">
+    <div class="container filter-bar-inner">
+      <!-- City filters -->
+      <span class="filter-label" data-lang="en">City:</span>
+      <span class="filter-label" data-lang="es">Ciudad:</span>
+      <div class="filter-group" role="group" aria-label="Filter by city">
+        <button class="filter-btn active" data-filter="city" data-value="all">
+          <span data-lang="en">All</span><span data-lang="es">Todas</span>
+        </button>
+        <button class="filter-btn" data-filter="city" data-value="houston">Houston</button>
+        <button class="filter-btn" data-filter="city" data-value="katy">Katy</button>
+        <button class="filter-btn" data-filter="city" data-value="sugar-land">Sugar Land</button>
+        <button class="filter-btn" data-filter="city" data-value="pearland">Pearland</button>
+        <button class="filter-btn" data-filter="city" data-value="friendswood">Friendswood</button>
+        <button class="filter-btn" data-filter="city" data-value="the-woodlands">The Woodlands</button>
+      </div>
+      <div class="filter-divider" aria-hidden="true"></div>
+      <!-- Service filters -->
+      <span class="filter-label" data-lang="en">Service:</span>
+      <span class="filter-label" data-lang="es">Servicio:</span>
+      <div class="filter-group" role="group" aria-label="Filter by service">
+        <button class="filter-btn active" data-filter="service" data-value="all">
+          <span data-lang="en">All</span><span data-lang="es">Todos</span>
+        </button>
+        <button class="filter-btn" data-filter="service" data-value="roof-replacement">
+          <span data-lang="en">Roof Replacement</span><span data-lang="es">Reemplazo</span>
+        </button>
+        <button class="filter-btn" data-filter="service" data-value="storm-damage">
+          <span data-lang="en">Storm Damage</span><span data-lang="es">Tormenta</span>
+        </button>
+        <button class="filter-btn" data-filter="service" data-value="gutters">
+          <span data-lang="en">Gutters</span><span data-lang="es">Canaletas</span>
+        </button>
+        <button class="filter-btn" data-filter="service" data-value="roof-repair">
+          <span data-lang="en">Roof Repair</span><span data-lang="es">Reparación</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════
+       PROJECTS GRID
+  ════════════════════════════════════ -->
+  <section class="projects-section" aria-labelledby="projects-heading">
+    <div class="container">
+      <p class="results-count" id="results-count" aria-live="polite">
+        <span data-lang="en">Showing <strong id="count-num-en">0</strong> projects</span>
+        <span data-lang="es">Mostrando <strong id="count-num-es">0</strong> proyectos</span>
+      </p>
+      <div class="projects-grid" id="projects-grid">
+        <!-- Cards injected by renderProjects() -->
+      </div>
+
+      <!-- No results message (outside grid so it's always accessible) -->
+      <div class="no-results" id="no-results" role="status">
+        <div class="no-results-icon" aria-hidden="true">&#128269;</div>
+        <h3 data-lang="en">No projects found</h3>
+        <h3 data-lang="es">No se encontraron proyectos</h3>
+        <p data-lang="en">Try selecting a different city or service filter.</p>
+        <p data-lang="es">Intenta seleccionar una ciudad o servicio diferente.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════
+       CTA SECTION
+  ════════════════════════════════════ -->
+  <section class="cta-section" id="cta" aria-labelledby="cta-heading">
+    <div class="container cta-inner">
+      <h2 class="cta-h2" id="cta-heading" data-lang="en">Ready to Start Your Project?</h2>
+      <h2 class="cta-h2" data-lang="es">¿Listo para Tu Proyecto?</h2>
+      <p class="cta-sub" data-lang="en">Licensed, insured, and local. Free inspection — no pressure, no obligation.</p>
+      <p class="cta-sub" data-lang="es">Licenciados, asegurados y locales. Inspección gratis — sin presión, sin compromiso.</p>
+      <div class="cta-actions">
+        <a href="tel:+18328655743" class="btn-cta-gold">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+          <span data-lang="en">Call (832) 865-5743</span>
+          <span data-lang="es">Llamar (832) 865-5743</span>
+        </a>
+        <a href="../index.html#quote" class="btn-cta-outline">
+          <span data-lang="en">Get a Free Quote</span>
+          <span data-lang="es">Cotización Gratis</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════ -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Brand -->
+        <div class="footer-brand">
+          <img src="../images/logo-white.png" alt="One Sun America" />
+          <p class="footer-tagline" data-lang="en">Licensed roofing contractor serving Greater Houston since 2019. Roof replacement, storm damage, gutters, and insurance claims.</p>
+          <p class="footer-tagline" data-lang="es">Contratista de techado licenciado en el área de Houston desde 2019. Reemplazo de techo, daño por tormenta, canaletas y seguros.</p>
+        </div>
+
+        <!-- Services -->
+        <div>
+          <div class="footer-col-title" data-lang="en">Services</div>
+          <div class="footer-col-title" data-lang="es">Servicios</div>
+          <ul class="footer-links">
+            <li><a href="../quote.html" data-lang="en">Roof Replacement</a><a href="../quote.html" data-lang="es">Reemplazo de Techo</a></li>
+            <li><a href="../insurance.html" data-lang="en">Storm Damage</a><a href="../insurance.html" data-lang="es">Daño por Tormenta</a></li>
+            <li><a href="../gutters.html" data-lang="en">Gutter Installation</a><a href="../gutters.html" data-lang="es">Canaletas</a></li>
+          </ul>
+        </div>
+
+        <!-- Service Areas -->
+        <div>
+          <div class="footer-col-title" data-lang="en">Service Areas</div>
+          <div class="footer-col-title" data-lang="es">Áreas de Servicio</div>
+          <ul class="footer-links">
+            <li><a href="../index.html">Houston</a></li>
+            <li><a href="../katy-tx.html">Katy</a></li>
+            <li><a href="../index.html">Sugar Land</a></li>
+            <li><a href="../index.html">Pearland</a></li>
+            <li><a href="../index.html">Friendswood</a></li>
+            <li><a href="../index.html">The Woodlands</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div>
+          <div class="footer-col-title" data-lang="en">Contact</div>
+          <div class="footer-col-title" data-lang="es">Contacto</div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+            <a href="tel:+18328655743">(832) 865-5743</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg>
+            <a href="mailto:info@onesunamerica.com">info@onesunamerica.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0zM19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/></svg>
+            <span>6300 N Main St, Houston, TX 77009</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copy" data-lang="en">&copy; 2026 One Sun America LLC. All rights reserved.</div>
+        <div class="footer-copy" data-lang="es">&copy; 2026 One Sun America LLC. Todos los derechos reservados.</div>
+        <div class="footer-credit">
+          <span data-lang="en">Designed by <a href="https://techadvisor.agency" target="_blank" rel="noopener">TechAdvisor</a></span>
+          <span data-lang="es">Diseñado por <a href="https://techadvisor.agency" target="_blank" rel="noopener">TechAdvisor</a></span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ════════════════════════════════════
+       STICKY MOBILE CTA
+  ════════════════════════════════════ -->
+  <div class="sticky-cta" aria-label="Mobile call to action">
+    <a href="tel:+18328655743">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+      <span data-lang="en">Call Now — Free Inspection</span>
+      <span data-lang="es">Llamar Ahora — Inspección Gratis</span>
+    </a>
+  </div>
+
+  <!-- ════════════════════════════════════
+       SITE DATA
+  ════════════════════════════════════ -->
+  <script src="../site-data.js"></script>
+
+  <script>
+    /* ── Language ── */
+    function setLang(lang) {
+      document.documentElement.lang = lang;
+      document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+      document.getElementById('btn-es').classList.toggle('active', lang === 'es');
+      localStorage.setItem('onesun-lang', lang);
+      renderProjects();
+    }
+    const savedLang = localStorage.getItem('onesun-lang');
+    if (savedLang === 'es') {
+      document.documentElement.lang = 'es';
+      document.getElementById('btn-en').classList.remove('active');
+      document.getElementById('btn-es').classList.add('active');
+    }
+
+    /* ── Hamburger ── */
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+    hamburger.addEventListener('click', function() {
+      const isOpen = mobileMenu.classList.toggle('open');
+      hamburger.setAttribute('aria-expanded', String(isOpen));
+    });
+
+    /* ── Navbar scroll ── */
+    window.addEventListener('scroll', function() {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 20);
+    }, { passive: true });
+
+    /* ── Filtering state ── */
+    var activeCity    = 'all';
+    var activeService = 'all';
+
+    /* ── Resolve image path ──
+       site-data.js stores paths relative to web root (e.g. "images/foo.jpg").
+       projects/index.html is one level deep, so prefix "../" unless the path
+       already starts with "../", "http", or "/".
+    ── */
+    function resolveImg(path) {
+      if (!path) return '';
+      if (path.indexOf('http') === 0 || path.indexOf('/') === 0 || path.indexOf('../') === 0) {
+        return path;
+      }
+      return '../' + path;
+    }
+
+    /* ── Lookup helpers ── */
+    function getCityName(cityId, lang) {
+      var city = ONE_SUN.cities.find(function(c) { return c.id === cityId; });
+      if (!city) return cityId;
+      return city[lang] ? city[lang].name : city.en.name;
+    }
+
+    function getServiceName(serviceId, lang) {
+      var svc = ONE_SUN.services.find(function(s) { return s.id === serviceId; });
+      if (!svc) return serviceId;
+      return svc[lang] ? svc[lang].name : svc.en.name;
+    }
+
+    /* ── Render projects ── */
+    function renderProjects() {
+      var lang    = document.documentElement.lang || 'en';
+      var grid    = document.getElementById('projects-grid');
+      var projects = ONE_SUN.projects;
+
+      var html = '';
+      projects.forEach(function(p) {
+        var imgSrc      = resolveImg(p.image);
+        var titleText   = p[lang] ? p[lang].title : p.en.title;
+        var descText    = p[lang] ? p[lang].desc  : p.en.desc;
+        var cityLabel   = getCityName(p.city, lang);
+        var serviceLabel = getServiceName(p.service, lang);
+
+        html += '<article class="project-card fade-in"'
+              + ' data-city="' + p.city + '"'
+              + ' data-service="' + p.service + '"'
+              + ' aria-label="' + titleText.replace(/"/g, '&quot;') + '">'
+              + '<div class="card-img-wrap">'
+              + '<img src="' + imgSrc + '" alt="' + titleText.replace(/"/g, '&quot;') + '" loading="lazy" />'
+              + '<span class="badge-city">'  + cityLabel    + '</span>'
+              + '<span class="badge-service">' + serviceLabel + '</span>'
+              + '</div>'
+              + '<div class="card-body">'
+              + '<h2 class="card-title">' + titleText + '</h2>'
+              + '<p class="card-desc">'   + descText  + '</p>'
+              + '</div>'
+              + '</article>';
+      });
+
+      grid.innerHTML = html;
+
+      /* Re-attach fade-in observer for newly rendered cards */
+      grid.querySelectorAll('.fade-in').forEach(function(el) {
+        fadeObserver.observe(el);
+      });
+
+      /* Re-apply active filters without resetting state */
+      applyFilters();
+    }
+
+    /* ── Apply filters ── */
+    function applyFilters() {
+      var cards    = document.querySelectorAll('#projects-grid .project-card[data-city]');
+      var noResult = document.getElementById('no-results');
+      var visible  = 0;
+
+      cards.forEach(function(card) {
+        var cityMatch    = activeCity    === 'all' || card.dataset.city    === activeCity;
+        var serviceMatch = activeService === 'all' || card.dataset.service === activeService;
+        if (cityMatch && serviceMatch) {
+          card.classList.remove('hidden');
+          visible++;
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+
+      document.getElementById('count-num-en').textContent = visible;
+      document.getElementById('count-num-es').textContent = visible;
+      noResult.classList.toggle('visible', visible === 0);
+    }
+
+    /* ── Filter button clicks ── */
+    document.querySelectorAll('.filter-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var group = btn.dataset.filter;
+        var value = btn.dataset.value;
+
+        document.querySelectorAll('.filter-btn[data-filter="' + group + '"]').forEach(function(b) {
+          b.classList.remove('active');
+        });
+        btn.classList.add('active');
+
+        if (group === 'city')    activeCity    = value;
+        if (group === 'service') activeService = value;
+
+        applyFilters();
+      });
+    });
+
+    /* ── Fade-in observer (defined before renderProjects so it's available) ── */
+    var fadeObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          fadeObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08 });
+
+    /* ── Initial render ── */
+    renderProjects();
+  </script>
+</body>
+</html>

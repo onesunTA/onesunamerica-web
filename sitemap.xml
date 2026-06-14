@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- HOME -->
+  <url>
+    <loc>https://onesunamerica.com/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onesunamerica.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://onesunamerica.com/"/>
+  </url>
+
+  <!-- SERVICE PAGES -->
+  <url><loc>https://onesunamerica.com/insurance.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://onesunamerica.com/maintenance.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://onesunamerica.com/gutters.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://onesunamerica.com/quote.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- HOUSTON NEIGHBORHOOD PAGES — High Value -->
+  <url><loc>https://onesunamerica.com/river-oaks-roofing.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://onesunamerica.com/west-university-roofing.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://onesunamerica.com/bellaire-roofing.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://onesunamerica.com/memorial-houston-roofing.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://onesunamerica.com/piney-point-roofing.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://onesunamerica.com/hunters-creek-roofing.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://onesunamerica.com/tanglewood-roofing.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://onesunamerica.com/galleria-houston-roofing.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://onesunamerica.com/meyerland-roofing.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://onesunamerica.com/braeswood-roofing.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://onesunamerica.com/houston-heights-roofing.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://onesunamerica.com/montrose-roofing.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://onesunamerica.com/cinco-ranch-roofing.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://onesunamerica.com/first-colony-roofing.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+
+  <!-- CITY PAGES -->
+  <url><loc>https://onesunamerica.com/katy-tx.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://onesunamerica.com/sugar-land-tx.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://onesunamerica.com/pearland-tx.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://onesunamerica.com/friendswood-tx.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://onesunamerica.com/the-woodlands-tx.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://onesunamerica.com/fulshear-tx.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://onesunamerica.com/richmond-tx.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://onesunamerica.com/conroe-tx.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://onesunamerica.com/tomball-tx.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onesunamerica.com/missouri-city-tx.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onesunamerica.com/rosenberg-tx.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onesunamerica.com/manvel-tx.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onesunamerica.com/alvin-tx.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onesunamerica.com/atascocita-tx.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onesunamerica.com/deer-park-tx.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onesunamerica.com/la-porte-tx.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onesunamerica.com/texas-city-tx.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- CONTENT -->
+  <url><loc>https://onesunamerica.com/projects/</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onesunamerica.com/blog/</loc><lastmod>2026-06-14</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onesunamerica.com/blog/hail-damage-roof-houston.html</loc><lastmod>2026-03-15</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://onesunamerica.com/blog/hurricane-roof-damage-houston.html</loc><lastmod>2026-02-20</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://onesunamerica.com/blog/how-long-does-roof-last-houston.html</loc><lastmod>2026-01-10</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://onesunamerica.com/blog/roof-repair-vs-replacement.html</loc><lastmod>2025-12-05</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+
+  <!-- UTILITY -->
+  <url><loc>https://onesunamerica.com/careers.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://onesunamerica.com/privacy.html</loc><lastmod>2026-01-01</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://onesunamerica.com/terms.html</loc><lastmod>2026-01-01</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+
+</urlset>
