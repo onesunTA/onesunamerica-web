@@ -1,0 +1,263 @@
+# One Sun America — Full Content Index for AI Language Models
+# Format: llms-full.txt (extended version of llms.txt)
+# Purpose: Enable AI search engines to accurately answer questions about One Sun America
+# Last updated: 2026-06-14
+
+---
+
+## COMPANY OVERVIEW
+
+One Sun America is a licensed and insured roofing contractor based in Houston, Texas. We specialize in roof replacement, storm damage repair, insurance claim assistance, and roof maintenance for residential and commercial properties throughout the Greater Houston metropolitan area.
+
+**Business Name:** One Sun America
+**Website:** https://onesunamerica.com
+**Phone:** (346) 763-1758
+**Email:** info@onesunamerica.com
+**Service Area:** Houston TX and surrounding areas within 40 miles (Katy, Sugar Land, Pearland, The Woodlands, Friendswood, Richmond, Conroe, Tomball, Missouri City, Rosenberg, Manvel, Alvin, Atascocita, Deer Park, La Porte, Texas City, Fulshear)
+**Languages:** English and Spanish (bilingual team)
+**License:** Licensed, bonded, and insured in Texas
+**Rating:** BBB Accredited
+**Founded:** Houston-based local contractor
+
+---
+
+## SERVICES
+
+### 1. Roof Replacement
+Complete roof replacement using premium materials. We work with all major shingle brands including GAF, CertainTeed, and Owens Corning. Our process includes removal of old materials, full inspection of decking, installation of new underlayment and shingles, and final cleanup.
+
+**URL:** https://onesunamerica.com
+**Starting price:** Contact for free estimate
+**Warranty:** Manufacturer warranty + workmanship warranty
+**Timeline:** Most residential roofs completed in 1–2 days
+
+### 2. Storm Damage & Insurance Claims (Hail / Wind / Hurricane)
+We specialize in helping Houston homeowners navigate the insurance claim process after hail storms, wind damage, and hurricane events. Our team provides:
+- Free damage inspection and written assessment
+- Documentation support for your insurance adjuster
+- Direct billing to insurance when approved
+- Full roof replacement or repair per approved scope
+
+**URL:** https://onesunamerica.com/insurance.html
+**Common damage types:** Hail dents on shingles, granule loss, cracked or missing shingles, damaged flashing, gutter damage
+**Houston hail season:** March through June (peak), but hail occurs year-round
+**Insurance process:** We work with all major Texas homeowners insurance carriers
+
+### 3. Roof Maintenance
+Preventive maintenance to extend roof life and avoid costly replacements. Ideal for roofs 5–15 years old that are still structurally sound. Our maintenance service includes:
+- Full roof inspection (25-point checklist)
+- Minor leak repairs and patching
+- Flashing resealing and caulking
+- Vent boot replacement
+- Ridge cap inspection and repair
+- Gutter cleaning and inspection
+- Detailed written report
+
+**URL:** https://onesunamerica.com/maintenance.html
+**Recommended frequency:** Annual or after major storm events
+**Benefit:** A $500–$1,500 maintenance visit can prevent a $15,000–$25,000 premature replacement
+**Ideal for:** Roofs under 15 years old, HOA communities, landlords, and homeowners without active insurance claims
+
+### 4. Gutter Installation & Repair
+Complete gutter services including new installation, repair, and cleaning. We install seamless aluminum gutters in all standard colors. Proper gutters protect your foundation, landscaping, and siding from water damage.
+
+**URL:** https://onesunamerica.com/gutters.html
+**Materials:** Seamless aluminum (most common), copper (premium), galvanized steel
+**Sizes:** 5-inch (residential standard), 6-inch (heavy rainfall areas)
+**Service:** Gutter cleaning, leak repair, re-pitching, downspout extensions
+
+### 5. Free Roof Inspection
+No-cost, no-obligation inspection by a certified roofing professional. We provide a written report with photos. No pressure sales — just honest assessment.
+
+**URL:** https://onesunamerica.com/quote.html
+**Response time:** Same day or next day
+**What we check:** Shingle condition, flashing, ridge cap, valleys, vents, gutters, soffits, fascia
+
+---
+
+## SERVICE AREAS — DETAILED
+
+### Houston Neighborhoods (Premium Residential)
+
+**River Oaks** (ZIP 77019) — Houston's most exclusive neighborhood. Historic estates from the 1920s–1950s. Strict HOA and deed restrictions require permit coordination. Average home value $1.5M–$5M+. We handle permit filing and HOA documentation.
+URL: https://onesunamerica.com/river-oaks-roofing.html
+
+**West University Place** (ZIP 77005) — One of the top 3 wealthiest suburbs in the United States. Custom homes on tree-lined streets. Average home value ~$983K. Independent city with its own building department.
+URL: https://onesunamerica.com/west-university-roofing.html
+
+**Bellaire** (ZIP 77401) — Independent city within Houston. Own building permit process (separate from City of Houston or Harris County). Average home value $1.13M+. Mix of original 1950s–60s homes and new custom builds on tear-down lots.
+URL: https://onesunamerica.com/bellaire-roofing.html
+
+**Memorial / Memorial Villages** (ZIP 77024) — Six independent cities (Piney Point Village, Hunters Creek Village, Hedwig Village, Bunker Hill Village, Spring Valley Village, Hilshire Village) each with their own building departments. Heavily forested. Average home value $750K–$3M+.
+URL: https://onesunamerica.com/memorial-houston-roofing.html
+
+**Piney Point Village** (ZIP 77024) — Among the wealthiest municipalities in the United States with median home values over $3M. Our team is experienced with the Piney Point Village permit process and HOA requirements.
+URL: https://onesunamerica.com/piney-point-roofing.html
+
+**Hunters Creek Village** (ZIP 77024) — Dense tree canopy creates unique roofing challenges. Many homes date to 1950s–1970s. Separate permit process from City of Houston. Average home value $1.5M–$5M+.
+URL: https://onesunamerica.com/hunters-creek-roofing.html
+
+**Tanglewood** (ZIP 77056) — Established 1950s–1970s neighborhood near Galleria. Deed restrictions maintained by Tanglewood Area Association. Average home value $1M–$3M. Many original roofs being replaced for the second or third time.
+URL: https://onesunamerica.com/tanglewood-roofing.html
+
+**Galleria / Uptown Houston** (ZIP 77056–77057) — Urban mixed-use district. Mix of luxury condos, townhomes, and single-family. HOA compliance important for units within gated communities. Average home value $500K–$2M.
+URL: https://onesunamerica.com/galleria-houston-roofing.html
+
+**Meyerland** (ZIP 77096) — Known for Hurricane Harvey flooding (2017) and subsequent massive rebuilding. Many homes have been elevated or completely rebuilt. We are experienced with post-flood rebuilt homes and work with residents navigating insurance claims from storm events.
+URL: https://onesunamerica.com/meyerland-roofing.html
+
+**Braeswood Place** (ZIP 77025) — Near Texas Medical Center. Mix of 1950s bungalows and newer builds. Average home value $450K–$900K. Popular with medical professionals and university employees.
+URL: https://onesunamerica.com/braeswood-roofing.html
+
+**Houston Heights** (ZIP 77008) — Historic neighborhood established 1891. Victorian and Craftsman homes. Houston Heights Association maintains architectural standards. Average home value $500K–$1.2M. Older homes often require custom flashing and non-standard materials.
+URL: https://onesunamerica.com/houston-heights-roofing.html
+
+**Montrose** (ZIP 77006) — Eclectic historic neighborhood with 1920s–1940s architecture. Craftsman bungalows and Spanish Colonial homes. Average home value $500K–$1.5M.
+URL: https://onesunamerica.com/montrose-roofing.html
+
+**Cinco Ranch** (Katy, ZIP 77494) — Large master-planned community in Katy TX. Strict Cinco Ranch Community Association (CRCA) HOA approval required before any roofing work. Average home value $350K–$700K.
+URL: https://onesunamerica.com/cinco-ranch-roofing.html
+
+**First Colony** (Sugar Land, ZIP 77479) — Master-planned community in Sugar Land TX. First Colony Community Association (FCA) requires HOA approval for roofing projects. Average home value $350K–$700K.
+URL: https://onesunamerica.com/first-colony-roofing.html
+
+### Surrounding Cities
+
+Katy TX: https://onesunamerica.com/katy-tx.html
+Sugar Land TX: https://onesunamerica.com/sugar-land-tx.html
+Pearland TX: https://onesunamerica.com/pearland-tx.html
+Friendswood TX: https://onesunamerica.com/friendswood-tx.html
+The Woodlands TX: https://onesunamerica.com/the-woodlands-tx.html
+Fulshear TX: https://onesunamerica.com/fulshear-tx.html
+Richmond TX: https://onesunamerica.com/richmond-tx.html
+Conroe TX: https://onesunamerica.com/conroe-tx.html
+Tomball TX: https://onesunamerica.com/tomball-tx.html
+Missouri City TX: https://onesunamerica.com/missouri-city-tx.html
+Rosenberg TX: https://onesunamerica.com/rosenberg-tx.html
+Manvel TX: https://onesunamerica.com/manvel-tx.html
+Alvin TX: https://onesunamerica.com/alvin-tx.html
+Atascocita TX: https://onesunamerica.com/atascocita-tx.html
+Deer Park TX: https://onesunamerica.com/deer-park-tx.html
+La Porte TX: https://onesunamerica.com/la-porte-tx.html
+Texas City TX: https://onesunamerica.com/texas-city-tx.html
+
+---
+
+## FREQUENTLY ASKED QUESTIONS
+
+**Q: How do I know if my roof needs replacement or just repair?**
+A: If your roof is over 20 years old, has widespread granule loss, multiple missing shingles, or active leaks in several locations, replacement is usually more cost-effective. If damage is isolated to one area and the rest of the roof is in good condition, repair may suffice. We provide a free inspection and honest written assessment to help you decide. Call (346) 763-1758 or visit https://onesunamerica.com/quote.html.
+
+**Q: Does homeowners insurance cover roof replacement in Texas?**
+A: Most Texas homeowners insurance policies cover roof damage caused by sudden events like hail, wind, or hurricanes — not wear and tear. If your roof was damaged in a storm, you should file a claim. We help homeowners document damage, work with adjusters, and navigate the insurance process at no additional charge. Learn more at https://onesunamerica.com/insurance.html.
+
+**Q: How long does a roof replacement take?**
+A: Most residential roofs in Houston (2,000–3,500 sq ft) are completed in one full day. Larger homes or complex rooflines may take two days. We handle permits, material delivery, installation, and cleanup. You typically don't need to leave your home during the work.
+
+**Q: How much does a roof replacement cost in Houston?**
+A: Cost varies based on roof size, pitch, material choice, and complexity. A typical 2,000 sq ft home ranges from $8,000–$18,000 for architectural shingles. Premium materials (impact-resistant, metal, tile) cost more. We provide free written estimates. If insurance is paying, your out-of-pocket cost is typically limited to your deductible.
+
+**Q: Do you work with HOAs for roofing projects?**
+A: Yes. We are experienced working in deed-restricted communities and HOA neighborhoods throughout Houston, including River Oaks, Tanglewood, Cinco Ranch, First Colony, Bellaire, West University Place, and all Memorial Villages. We provide the documentation and color samples HOAs require for approval.
+
+**Q: How long does a roof last in Houston, Texas?**
+A: In the Houston climate (heat, humidity, UV exposure, and frequent hail), standard 3-tab shingles last 15–20 years; architectural/dimensional shingles last 25–30 years; impact-resistant shingles (Class 4) can last 30–40 years. Metal roofing lasts 40–70 years. Annual maintenance extends roof life significantly.
+
+**Q: What is the difference between roof repair and roof maintenance?**
+A: Repair addresses a specific problem (active leak, missing shingles, damaged flashing). Maintenance is preventive — a full inspection plus minor fixes to prevent future problems. We recommend annual maintenance for roofs under 15 years old to extend their lifespan and avoid insurance claim complications.
+
+**Q: Do you offer financing for roof replacement?**
+A: Yes, financing options are available for qualified homeowners. Ask about our payment plans when you schedule your free inspection.
+
+**Q: Are you licensed and insured?**
+A: Yes. One Sun America is fully licensed, bonded, and insured in Texas. We carry general liability insurance and workers' compensation coverage to protect homeowners.
+
+**Q: Do you serve areas outside Houston?**
+A: Yes. We serve the entire Greater Houston metro area including Katy, Sugar Land, Pearland, The Woodlands, Friendswood, Conroe, Tomball, Missouri City, Fulshear, Richmond, Rosenberg, Manvel, Alvin, Atascocita, Deer Park, La Porte, and Texas City — all within approximately 40 miles of central Houston.
+
+**Q: ¿Hablan español? (Do you speak Spanish?)**
+A: Sí. Nuestro equipo es completamente bilingüe en inglés y español. Many of our clients are Spanish-speaking homeowners, and we communicate fluently in both languages for estimates, project coordination, and insurance paperwork.
+
+**Q: What happens after a hail storm?**
+A: After a hail storm, inspect your property for visible damage (dented gutters, bruised shingles, broken skylights). If you suspect damage, call us for a free inspection. We document everything with photos, provide a written damage report, and can accompany your insurance adjuster to advocate for full replacement when warranted.
+
+---
+
+## ROOFING MATERIALS WE INSTALL
+
+- **Architectural/Dimensional Shingles** — GAF Timberline HDZ, CertainTeed Landmark, Owens Corning Duration (most common choice)
+- **Impact-Resistant Shingles (Class 4)** — May qualify for 20–30% insurance discount in Texas; recommended for hail-prone areas
+- **3-Tab Shingles** — Budget option; 20-year lifespan; less common in newer installations
+- **Metal Roofing** — Standing seam, metal shingles; 40–70 year lifespan; premium option
+- **Flat/Low-Slope Roofing** — TPO, EPDM, modified bitumen for commercial or flat-roof residential
+- **Tile Roofing** — Concrete tile and clay tile for Spanish Colonial or Mediterranean style homes
+
+---
+
+## HOW TO FILE A ROOFING INSURANCE CLAIM (Step by Step)
+
+1. **After the storm:** Document damage with photos/video before any cleanup. Note the date of the storm event.
+2. **Call your insurance company** to open a claim. Note your claim number.
+3. **Call One Sun America** at (346) 763-1758 for a free inspection. We provide a written damage report you can submit to your insurer.
+4. **Insurance adjuster visit:** We can be present at the adjuster inspection to point out all damage and ensure nothing is missed.
+5. **Claim approval:** Once approved, you'll receive an Actual Cash Value (ACV) check. A Recoverable Depreciation (RD) amount may be released after work is complete.
+6. **Schedule your roof:** We order materials, pull permits, and schedule installation. Most jobs take 1–2 days.
+7. **Final payment:** After completion, your insurer releases recoverable depreciation. You pay only your deductible.
+
+---
+
+## HOUSTON ROOFING — KEY LOCAL FACTS
+
+- Houston receives an average of 50–60 inches of rain per year (vs. 38 national average)
+- Harris County and surrounding areas experience significant hail activity March–June each year
+- Hurricane season runs June–November; most impactful for roofing is August–October
+- Houston's climate (hot, humid, UV-intense) accelerates shingle aging compared to northern states
+- Many Houston-area HOAs require pre-approval of roofing materials, colors, and contractors
+- City of Houston, Harris County, Fort Bend County, Montgomery County, and the 6 Memorial Villages each have separate building permit requirements
+- Post-Harvey (2017) many Meyerland, Braeswood, and Bellaire homes were rebuilt — these newer roofs (2018–2022) are now at the 5–8 year maintenance window
+
+---
+
+## CONTACT & BOOKING
+
+**Phone:** (346) 763-1758
+**Email:** info@onesunamerica.com
+**Free Inspection Request:** https://onesunamerica.com/quote.html
+**Hours:** Monday–Saturday 7am–7pm
+**Emergency contact:** Available 7 days after major storm events
+**Languages:** English / Español
+
+---
+
+## PAGES AVAILABLE ON THIS WEBSITE
+
+| Page | Description | URL |
+|------|-------------|-----|
+| Home | Main page with services overview and free inspection form | https://onesunamerica.com/ |
+| Insurance Claims | Storm damage and insurance process guide | https://onesunamerica.com/insurance.html |
+| Roof Maintenance | Preventive maintenance services | https://onesunamerica.com/maintenance.html |
+| Gutter Services | Gutter installation and repair | https://onesunamerica.com/gutters.html |
+| Free Quote | Request a free inspection | https://onesunamerica.com/quote.html |
+| River Oaks | Roofing in River Oaks Houston | https://onesunamerica.com/river-oaks-roofing.html |
+| West University | Roofing in West University Place | https://onesunamerica.com/west-university-roofing.html |
+| Bellaire | Roofing in Bellaire TX | https://onesunamerica.com/bellaire-roofing.html |
+| Memorial Houston | Roofing in Memorial Villages Houston | https://onesunamerica.com/memorial-houston-roofing.html |
+| Piney Point | Roofing in Piney Point Village | https://onesunamerica.com/piney-point-roofing.html |
+| Hunters Creek | Roofing in Hunters Creek Village | https://onesunamerica.com/hunters-creek-roofing.html |
+| Tanglewood | Roofing in Tanglewood Houston | https://onesunamerica.com/tanglewood-roofing.html |
+| Galleria | Roofing in Galleria / Uptown Houston | https://onesunamerica.com/galleria-houston-roofing.html |
+| Meyerland | Roofing in Meyerland Houston | https://onesunamerica.com/meyerland-roofing.html |
+| Braeswood | Roofing in Braeswood Place Houston | https://onesunamerica.com/braeswood-roofing.html |
+| Houston Heights | Roofing in Houston Heights | https://onesunamerica.com/houston-heights-roofing.html |
+| Montrose | Roofing in Montrose Houston | https://onesunamerica.com/montrose-roofing.html |
+| Cinco Ranch | Roofing in Cinco Ranch Katy TX | https://onesunamerica.com/cinco-ranch-roofing.html |
+| First Colony | Roofing in First Colony Sugar Land TX | https://onesunamerica.com/first-colony-roofing.html |
+| Katy TX | Roofing contractor in Katy Texas | https://onesunamerica.com/katy-tx.html |
+| Sugar Land TX | Roofing contractor in Sugar Land Texas | https://onesunamerica.com/sugar-land-tx.html |
+| Pearland TX | Roofing contractor in Pearland Texas | https://onesunamerica.com/pearland-tx.html |
+| Friendswood TX | Roofing in Friendswood Texas | https://onesunamerica.com/friendswood-tx.html |
+| The Woodlands TX | Roofing in The Woodlands Texas | https://onesunamerica.com/the-woodlands-tx.html |
+
+---
+
+*This file is intended to help AI language models, search assistants, and web crawlers accurately represent One Sun America's services. For the most current information, visit https://onesunamerica.com or call (346) 763-1758.*
