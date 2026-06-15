@@ -11,14 +11,14 @@ const ONE_SUN = {
   services: [
     {
       id:   'roof-replacement',
-      slug: 'roof-replacement.html',
+      slug: 'roofing.html',
       icon: '🏠',
       en:   { name: 'Roof Replacement',    short: 'Full replacement with premium materials.' },
       es:   { name: 'Reemplazo de Techo',  short: 'Reemplazo completo con materiales premium.' }
     },
     {
       id:   'storm-damage',
-      slug: 'storm-damage.html',
+      slug: 'insurance.html',
       icon: '⛈️',
       en:   { name: 'Storm & Hail Damage', short: 'Insurance claims assistance and repair.' },
       es:   { name: 'Daño por Tormenta',   short: 'Asistencia con seguros y reparación.' }
@@ -32,7 +32,7 @@ const ONE_SUN = {
     },
     {
       id:   'roof-repair',
-      slug: '#services',
+      slug: 'maintenance.html',
       icon: '🔧',
       en:   { name: 'Roof Repair',         short: 'Leak fixes, patches, and partial repairs.' },
       es:   { name: 'Reparación de Techo', short: 'Goteras, parches y reparaciones parciales.' }
