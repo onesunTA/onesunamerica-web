@@ -606,10 +606,11 @@
       background: var(--bg); border: 1.5px solid var(--border);
       border-radius: var(--radius-lg); padding: 32px 24px;
       transition: border-color .15s ease, box-shadow .15s ease;
-      cursor: default; transform-style: preserve-3d;
-      will-change: transform;
+      cursor: pointer; transform-style: preserve-3d;
+      will-change: transform; display: block; text-decoration: none; color: inherit;
     }
     .service-card:hover { border-color: var(--gold); box-shadow: var(--shadow-lg); }
+    .service-cta { display: inline-flex; align-items: center; gap: 6px; margin-top: 16px; font-family: 'Poppins', sans-serif; font-size: 13px; font-weight: 600; color: var(--gold); }
     .service-icon {
       width: 52px; height: 52px; border-radius: 12px;
       background: rgba(238,201,21,.12); border: 1.5px solid rgba(238,201,21,.2);
@@ -1446,7 +1447,7 @@
     <h2 class="section-title" data-lang="en">Residential Roofing Services<br>for <span>Houston Homeowners</span></h2>
     <h2 class="section-title" data-lang="es">Servicios de Techado Residencial<br>para <span>Propietarios en Houston</span></h2>
     <div class="services-grid">
-      <div class="service-card fade-up">
+      <a class="service-card fade-up" href="quote.html">
         <div class="service-icon">
           <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
         </div>
@@ -1454,8 +1455,9 @@
         <div class="service-title" data-lang="es">Reemplazo de Techo</div>
         <div class="service-desc" data-lang="en">Full residential roof replacement with quality materials and a workmanship warranty. Most jobs completed in 1–2 days.</div>
         <div class="service-desc" data-lang="es">Reemplazo completo de techo residencial con materiales de calidad y garantía de mano de obra. La mayoría de los trabajos se completan en 1–2 días.</div>
-      </div>
-      <div class="service-card fade-up" style="transition-delay:.1s">
+        <span class="service-cta"><span data-lang="en">Learn more →</span><span data-lang="es">Ver más →</span></span>
+      </a>
+      <a class="service-card fade-up" href="maintenance.html" style="transition-delay:.1s">
         <div class="service-icon">
           <svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
         </div>
@@ -1463,8 +1465,9 @@
         <div class="service-title" data-lang="es">Reparación de Techo</div>
         <div class="service-desc" data-lang="en">Leaks, missing shingles, damaged flashing. We diagnose and fix the problem at the root, not just patch it.</div>
         <div class="service-desc" data-lang="es">Goteras, tejas faltantes, tapajuntas dañados. Diagnosticamos y resolvemos el problema de raíz, no solo parches.</div>
-      </div>
-      <div class="service-card fade-up" style="transition-delay:.2s">
+        <span class="service-cta"><span data-lang="en">Learn more →</span><span data-lang="es">Ver más →</span></span>
+      </a>
+      <a class="service-card fade-up" href="insurance.html" style="transition-delay:.2s">
         <div class="service-icon">
           <svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
         </div>
@@ -1472,8 +1475,9 @@
         <div class="service-title" data-lang="es">Daño por Tormenta y Granizo</div>
         <div class="service-desc" data-lang="en">Free inspection after any storm event. We document the damage thoroughly and work alongside your insurance adjuster.</div>
         <div class="service-desc" data-lang="es">Inspección gratuita después de cualquier tormenta. Documentamos el daño a fondo y trabajamos junto a tu ajustador de seguros.</div>
-      </div>
-      <div class="service-card fade-up" style="transition-delay:.1s">
+        <span class="service-cta"><span data-lang="en">Learn more →</span><span data-lang="es">Ver más →</span></span>
+      </a>
+      <a class="service-card fade-up" href="gutters.html" style="transition-delay:.1s">
         <div class="service-icon">
           <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
         </div>
@@ -1481,8 +1485,9 @@
         <div class="service-title" data-lang="es">Canaletas</div>
         <div class="service-desc" data-lang="en">Installation and replacement of seamless gutters that protect your foundation, walls and landscaping from water damage.</div>
         <div class="service-desc" data-lang="es">Instalación y reemplazo de canaletas sin costuras que protegen tus cimientos, paredes y jardín del daño por agua.</div>
-      </div>
-      <div class="service-card fade-up" style="transition-delay:.2s">
+        <span class="service-cta"><span data-lang="en">Learn more →</span><span data-lang="es">Ver más →</span></span>
+      </a>
+      <a class="service-card fade-up" href="remodeling.html" style="transition-delay:.2s">
         <div class="service-icon">
           <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
         </div>
@@ -1490,8 +1495,9 @@
         <div class="service-title" data-lang="es">Remodelación</div>
         <div class="service-desc" data-lang="en">Interior and exterior remodeling to restore your home to its best condition after any roof or water damage.</div>
         <div class="service-desc" data-lang="es">Remodelación interior y exterior para restaurar tu hogar a su mejor estado después de daños en el techo o por agua.</div>
-      </div>
-      <div class="service-card fade-up" style="transition-delay:.3s">
+        <span class="service-cta"><span data-lang="en">Learn more →</span><span data-lang="es">Ver más →</span></span>
+      </a>
+      <a class="service-card fade-up" href="quote.html" style="transition-delay:.3s">
         <div class="service-icon">
           <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         </div>
@@ -1499,7 +1505,8 @@
         <div class="service-title" data-lang="es">Inspección Gratuita</div>
         <div class="service-desc" data-lang="en">Not sure of your roof's condition? We provide a thorough free inspection with a detailed written report — no strings attached.</div>
         <div class="service-desc" data-lang="es">¿No estás seguro del estado de tu techo? Ofrecemos una inspección gratuita detallada con reporte por escrito — sin compromisos.</div>
-      </div>
+        <span class="service-cta"><span data-lang="en">Schedule now →</span><span data-lang="es">Agendar →</span></span>
+      </a>
     </div>
   </div>
 </section>
